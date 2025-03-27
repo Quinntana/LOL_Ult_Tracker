@@ -1,13 +1,10 @@
 # LoL Ult Tracker VN
 
 ## Overview
-This Python script provides a comprehensive analysis of enemy champions in a League of Legends game, extracting:
-- Champion levels
-- Item inventories
-- Total Ability Haste
-- Ultimate cooldown 
+This Python script creates an overlay that track enemy ultimate cooldown, adjusted to their level and ability haste
 
 ## Features
+- Draggable overlay with adjustable size
 - Fetches real-time enemy champion data from Live Client API
 - Calculates Ability Haste from current item builds
 - Retrieves ultimate cooldown based on champion level
@@ -47,7 +44,8 @@ python main.py
 
 ## Dependencies
 - requests
-- urllib3
+- Pillow
+- tkinter
 
 ## Troubleshooting
 - Ensure League of Legends client is running
